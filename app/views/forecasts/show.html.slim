@@ -1,0 +1,24 @@
+.main-card style="background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);"
+  h2 style="text-align: center; margin-bottom: 15px;" Forecast for #{@forecast[:zip_code]}, #{@forecast[:country]}
+
+  p
+    strong Temperature:
+    = "#{@forecast[:temp]} °C"
+
+  p
+    strong Description:
+    = @forecast[:description]
+
+  p
+    strong High / Low:
+    = "#{@forecast[:high]} / #{@forecast[:low]} °C"
+
+  p
+    strong Humidity:
+    = "#{@forecast[:humidity]} %"
+
+  p
+    strong Sea Level:
+    = "#{@forecast[:sea_level]} hPa"
+
+  = link_to "Back", root_path, style: "display: block; text-align: center; margin-top: 20px; color: #4f46e5; text-decoration: underline;"

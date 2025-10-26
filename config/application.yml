@@ -1,0 +1,11 @@
+#
+# These we can add in the server configuration for production env
+# As this is a development environment, we are adding them here for convenience
+#
+WEATHER_API_BASE_URL: https://api.openweathermap.org/data/2.5/weather
+OPENWEATHER_API_KEY: 692c10b21bb81f72ffd7b4b9246c15d1
+REDIS_URL: redis://localhost:6379/1
+FORECAST_CACHE_EXPIRY: 30
+redis_host: localhost
+redis_port: '6379'
+redis_db: '1'

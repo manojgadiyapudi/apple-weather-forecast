@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title Weather Forecast
+    = csrf_meta_tags
+    = stylesheet_link_tag "application", media: "all"
+    = javascript_include_tag "application", defer: true
+
+  body style="background-color: #f0f2f5; font-family: sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh;"
+    .container style="width: 100%; max-width: 400px;"
+      - flash.each do |key, message|
+        div style="margin-bottom: 10px; padding: 10px; border-radius: 6px; border: 1px solid; background-color: #{key == 'alert' ? '#fde2e2' : '#e2f5e9'}; color: #{key == 'alert' ? '#b71c1c' : '#2e7d32'}"
+          = message
+
+      = yield
