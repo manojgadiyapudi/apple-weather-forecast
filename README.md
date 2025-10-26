@@ -175,3 +175,21 @@ The application handles various error scenarios:
 - **Network Issues**: Timeout and connection error handling
 - **Missing Configuration**: Clear error messages for missing API keys
 - **Invalid Location**: User-friendly messages for non-existent locations
+
+## 🖼️ Screenshots
+
+RSpec & UI Testing Reports
+
+<img width="1512" height="875" alt="Screenshot 2025-10-26 at 3 07 27 PM" src="https://github.com/user-attachments/assets/0ef461ba-6a9f-4e9c-b1e0-61cc438312a5" />
+<img width="1504" height="478" alt="Screenshot 2025-10-26 at 3 07 48 PM" src="https://github.com/user-attachments/assets/35878f32-4875-4292-98d8-d41a9be57cdc" />
+<img width="1504" height="478" alt="Screenshot 2025-10-26 at 3 07 56 PM" src="https://github.com/user-attachments/assets/6b1022eb-7f28-4d83-98df-ff7357a639e2" />
+<img width="1504" height="478" alt="Screenshot 2025-10-26 at 3 08 15 PM" src="https://github.com/user-attachments/assets/8ac874ab-8f19-4f62-9fe3-e880dd3b01c4" />
+<img width="1504" height="478" alt="Screenshot 2025-10-26 at 3 08 06 PM" src="https://github.com/user-attachments/assets/3278cebd-9d74-4a1f-98fb-8f1be1bb2e11" />
+<img width="1502" height="818" alt="Screenshot 2025-10-26 at 3 04 24 PM" src="https://github.com/user-attachments/assets/bc8fe47c-a26d-42f9-abd7-884fbd6f22e1" />
+
+
+
+
+
+
+
